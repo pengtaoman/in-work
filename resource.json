@@ -1,0 +1,41 @@
+{
+  "assets": {
+    "uris": {
+      "jre-tar-gz": "http://10.211.55.2:8080/frameworks/helloworld/jre-8u91-linux-x64.tar.gz",
+      "libmesos-bundle-tar-gz": "http://10.211.55.2:8080/frameworks/helloworld/libmesos-bundle-1.8.7-1.0.2.tar.gz",
+      "bootstrap-zip": "http://10.211.55.2:8080/sdk/bootstrap/bootstrap.zip",
+      "scheduler-zip": "http://10.211.55.2:8080/frameworks/helloworld/build/distributions/hello-world-scheduler.zip",
+      "keystore-app-zip": "http://10.211.55.2:8080/frameworks/helloworld/build/distributions/keystore-app.zip"
+    }
+  },
+  "images": {
+    "icon-small": "https://downloads.mesosphere.com/assets/universe/000/hello-world-icon-small.png",
+    "icon-medium": "https://downloads.mesosphere.com/assets/universe/000/hello-world-icon-medium.png",
+    "icon-large": "https://downloads.mesosphere.com/assets/universe/000/hello-world-icon-large.png"
+  },
+  "cli": {
+    "binaries": {
+      "darwin": {
+        "x86-64": {
+          "contentHash": [ { "algo":"sha256", "value":"b5404361b493b39c71ae1ad6ac7d05bc082113314542f9226ece3c8eddbcebff" } ],
+          "kind": "executable",
+          "url": "http://10.211.55.2:8080/sdk/cli/dcos-service-cli-darwin"
+        }
+      },
+      "linux": {
+        "x86-64": {
+          "contentHash": [ { "algo":"sha256", "value":"7734977a046ff623dc7a8decb39e424a49502c6c070f41dc56384a00a1b58b46" } ],
+          "kind": "executable",
+          "url": "http://10.211.55.2:8080/sdk/cli/dcos-service-cli-linux"
+        }
+      },
+      "windows": {
+        "x86-64": {
+          "contentHash": [ { "algo":"sha256", "value":"f9ea253fd65053492ea734178d498491633942b21909745e6264e25b171ea5fc" } ],
+          "kind": "executable",
+          "url": "http://10.211.55.2:8080/sdk/cli/dcos-service-cli.exe"
+        }
+      }
+    }
+  }
+}
